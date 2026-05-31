@@ -1,59 +1,83 @@
 # task-2-data-visualization
 Netflix Content Analysis Dashboard using Power BI
 
-# Task 2 - Data Visualization and Storytelling
+# Netflix Content Analytics Dashboard
+
+## Project Overview
+
+This project focuses on analyzing Netflix's content library using Power BI. The dashboard provides insights into content distribution, growth trends, ratings, countries contributing content, and popular genres available on Netflix.
 
 ## Objective
-The objective of this project is to create meaningful visualizations and present business insights using Power BI.
 
-## Dataset Used
-Netflix Movies and TV Shows Dataset
+The objective of this project is to transform raw Netflix data into meaningful visualizations that help understand content trends and support data-driven storytelling.
 
 ## Tools Used
-- Power BI
-- Microsoft Excel (for initial review)
-- CSV Dataset
 
-## Dashboard Title
-Netflix Content Analysis Dashboard
+* Power BI
+* Microsoft Excel / CSV Dataset
+* Data Cleaning using Python (Pandas)
 
-## Visualizations Created
+## Dataset
 
-### 1. Content Distribution: Movies vs TV Shows
-Shows the proportion of Movies and TV Shows available on Netflix.
+Netflix Movies and TV Shows Dataset
 
-### 2. Netflix Content Growth Over Years
-Displays how Netflix content has grown over time based on release year.
+## Dashboard Components
 
-### 3. Distribution of Content Ratings
-Analyzes the distribution of content ratings such as TV-MA, PG-13, TV-14, etc.
+### KPI Cards
 
-### 4. Top 10 Countries by Content Production
-Highlights the countries contributing the most content to Netflix.
+* Total Titles: 8,807
+* Movies: 6,131
+* TV Shows: 2,676
 
-### 5. Content Distribution by Genre
-Shows the most common genres and categories available on Netflix.
+### Visualizations
 
-### 6. KPI Cards
-- Total Titles Available
-- Total Movies
-- Total TV Shows
-- Total Content-Producing Countries
+#### 1. Content Distribution by Type
+
+A donut chart showing the proportion of Movies and TV Shows available on Netflix.
+
+#### 2. Netflix Content Growth Over Time
+
+A line chart displaying how Netflix content has expanded over the years.
+
+#### 3. Top 10 Countries by Number of Titles
+
+A bar chart identifying the countries contributing the highest number of titles to Netflix.
+
+#### 4. Content Rating Distribution
+
+A column chart showing the distribution of content ratings such as TV-MA, TV-14, TV-PG, and others.
+
+#### 5. Top Genres on Netflix
+
+A treemap visualizing the most popular genres and content categories.
+
+### Interactive Filters
+
+Users can filter the dashboard by:
+
+* Content Type
+* Rating
+* Release Year
 
 ## Key Insights
-- Movies make up a larger portion of Netflix content than TV Shows.
-- Netflix content library expanded significantly after 2015.
-- The United States contributes the highest number of titles.
-- TV-MA and TV-14 are among the most common content ratings.
-- International TV Shows and Dramas are popular content categories.
+
+* Movies dominate the Netflix library, accounting for approximately 69.6% of all titles.
+* TV Shows contribute approximately 30.4% of the content catalog.
+* Netflix experienced significant content growth after 2015.
+* The United States contributes the highest number of titles on the platform.
+* TV-MA and TV-14 are the most common content ratings.
+* International Movies, Dramas, and Comedies are among the most popular genres.
 
 ## Outcome
-Created an interactive Power BI dashboard to analyze Netflix content trends and communicate business insights through effective data storytelling.
 
-## Skills Learned
-- Data Visualization
-- Dashboard Design
-- Power BI Reporting
-- Data Storytelling
-- KPI Analysis
-- Business Insight Generation
+This dashboard successfully demonstrates the use of data visualization and storytelling techniques to communicate insights from Netflix content data. It helps users explore trends, understand content distribution, and identify key patterns within the Netflix library.
+
+## Skills Demonstrated
+
+* Data Visualization
+* Dashboard Design
+* Data Storytelling
+* Business Insight Generation
+* KPI Reporting
+* Power BI Development
+* Analytical Thinking
